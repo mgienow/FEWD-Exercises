@@ -1,0 +1,37 @@
+h1 {
+  color: #fff;
+  font-size: 3em;
+}
+
+#bento {
+  width: 50em;
+  border: 5px solid brown;
+  margin: 2em auto;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box1, .box2, .box3, .box4 {
+  width: 25em;
+  height: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  background-color: green;
+}
+
+.box2 {
+  background-color: blue;
+}
+
+.box3{
+  background-color: orange;
+}
+
+.box4 {
+  background-color: grey;
+}
