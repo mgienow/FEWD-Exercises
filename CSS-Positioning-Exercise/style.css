@@ -1,0 +1,57 @@
+h1 {
+  color: #fff;
+   /*text-align: center;
+   padding-top: 2em;*/
+  position: relative;
+  top: 2em;
+  left: 2em;
+
+}
+
+#bento {
+  width: 50em;
+  border: 5px solid brown;
+  margin: 0 auto;
+  position: relative;
+  height: 20em;
+}
+
+.box1, .box2, .box3, .box4 {
+  width: 25em;
+  height: 10em;
+
+}
+
+/*   Box 1 is positioned absolutely vis-a-vis its nearest positioned ancestor, the parent container, bento, at top left corner:*/
+.box1 {
+  background-color: green;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Box 2 is positioned relative to Bento, its parent element  */
+.box2 {
+
+  background-color: blue;
+  position: relative;
+  left: 25em;
+  top: -1.37em;
+}
+
+/* Box 3 is positioned relative to Bento, its parent element. By order of markup it is already to the
+left end/container start */
+.box3{
+  background-color: orange;
+  position: relative;
+  bottom: 2.65em;
+}
+
+/* Box 4 is absolutely positioned vis-a-vis Box3, its nearest positioned ancestor  */
+.box4 {
+  background-color: grey;
+  opacity: .5;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
