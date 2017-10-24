@@ -1,28 +1,26 @@
 h1 {
   color: #fff;
-   /*text-align: center;
-   padding-top: 2em;*/
+  margin: 0;
+  font-size: 3em;
   position: relative;
-  top: 2em;
-  left: 2em;
-
+  top: 1em;
+  left: 4em;
 }
 
 #bento {
   width: 50em;
   border: 5px solid brown;
-  margin: 0 auto;
+  margin: 2em auto;
   position: relative;
-  height: 20em;
 }
 
 .box1, .box2, .box3, .box4 {
   width: 25em;
   height: 10em;
-
+  margin: 0;
 }
 
-/*   Box 1 is positioned absolutely vis-a-vis its nearest positioned ancestor, the parent container, bento, at top left corner:*/
+/*   Box 1 is positioned absolutely relative to its nearest positioned ancestor, the parent container, bento, at top left corner:*/
 .box1 {
   background-color: green;
   position: absolute;
@@ -30,28 +28,34 @@ h1 {
   left: 0;
 }
 
-/* Box 2 is positioned relative to Bento, its parent element  */
+/* Box 2 is positioned relative to its container, #Bento.  Pushed to the right by putting 25em on the left side
+because in markup order it's flush left.   */
 .box2 {
-
   background-color: blue;
   position: relative;
   left: 25em;
-  top: -1.37em;
 }
 
-/* Box 3 is positioned relative to Bento, its parent element. By order of markup it is already to the
-left end/container start */
 .box3{
   background-color: orange;
-  position: relative;
-  bottom: 2.65em;
 }
 
-/* Box 4 is absolutely positioned vis-a-vis Box3, its nearest positioned ancestor  */
+/*Using 'absolute` on Box 4 anchors the div to the lower right corner of its parent element, Bento, meaning
+that there is no residual "saved" space. */
 .box4 {
   background-color: grey;
-  opacity: .5;
   position: absolute;
   bottom: 0;
   right: 0;
 }
+
+
+/* Using `relative` on Box 4 means that the space we move it from, relative to the parent container Bento,
+is NOT filled in -- the original markup spot remains, pushing the bottom border of Bento an additional 10em* /
+
+/*.box4{
+  background-color: grey;
+  position: relative;
+  left: 25em;
+  bottom: 10em;
+} */
