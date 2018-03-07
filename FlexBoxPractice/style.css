@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  /* flex-wrap: wrap; */
+}
+
+
+.container {
+  /* width: 20em; */
+  margin: 2em auto;
+  height: 30em;
+  border: 5px solid blue;
+}
+p {
+  font-family: sans-serif;
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+}
+.box {
+  width: 20%;
+  height: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid tan;
+  background-color: lightblue;
+}
