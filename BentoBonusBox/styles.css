@@ -1,0 +1,82 @@
+
+
+html {
+	font-family: "Brandon Grotesque", sans-serif;
+	font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+}
+
+ .container {
+	border: 10px solid gray;
+	margin: 4em auto;
+  height: 76em;
+  width: 100em;
+}
+
+h1{
+  font-size: 3em;
+}
+
+
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   align-items: center;
+    justify-content: space-evenly;
+  } 
+
+/* .container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75em;
+  height: 50em;
+  border: 10px solid gray;
+} */
+	.box {
+		border-radius: 0.5rem;
+/* 		box-sizing: border-box; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+		
+	}
+	.b1 {
+    background-color: #8ED3F2;
+		height: 25em;
+    width: 33em;
+	}
+	.b2 {
+		background-color: #9394CA;;
+		height: 50em;
+     width: 33em;
+	}
+	.b3{
+		background-color: #DF86B6;
+		height: 25em;
+		width: 33em;
+	}
+	.b4{
+		background-color:  #F2E966;
+		height: 25em;
+		width: 33em;
+	}
+	.b5 {
+		background-color: #E62525;
+		height: 25em;
+		width: 33em;
+	}
+	
+.b6 {
+		background-color: #00C9C1;
+		height: 35em;
+		width: 32em;
+	}
+.b7 {
+		background-color:  #8ED3F2;
+		height: 40em;
+		width: 32em;
+	}
