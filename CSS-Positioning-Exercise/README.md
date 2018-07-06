@@ -2,7 +2,7 @@
 
 1. Start a new website project in a directory called CSS-positioning, and create blank index.html and style.css files.
 
-2. Write the HTML to create a container \<div> with four child \<div> elements. Inside each \<div>, put a number from 1 to 4. Give the container an id of "bento"; give each child \<div> a class name of box1, box2, box3, or box4. (So the div with class name "box1" should contain the number 1 inside, box2 has 2, etc).
+2. Write the HTML to create a container \<div> with four child \<div> elements. Inside each \<div>, put an \<h1> element consisting of a number from 1 to 4. Give the container an id of "bento"; give each child \<div> a class name of box1, box2, box3, or box4. (So the div with class name "box1" should contain the number 1 inside, box2 has 2, etc).
 
 3. Set up the look of the page by writing the CSS code necessary to:
   - Give #bento a 5px solid darkgray border and a width of 50em. Center the #bento container div on the page.
@@ -11,6 +11,8 @@
 
   - Give each child box a different background color (your choice).
   
+  - Style the \<h1> elements so that the font color is white, font size is 3em, and margin is zero.
+  
 4. Now, use CSS positioning property with appropriate values (static, relative, absolute, fixed)to place the boxes inside #bento as follows:
 
   - Box1 should occupy the upper left quadrant of the parent container
@@ -18,7 +20,9 @@
   - Box3, lower left
   - Box4, lower right
   
-  The final result should look like this: 
+  5. Use CSS positioning property to center each \<h1> in the middle of its parent \<div> (box).
+  
+  The final result should look like this, with whatever colors you choose: 
   ![alt text](assets/bento-positioning.png "Description goes here")
   
   Keep in mind there are multiple ways to go about doing this, different combinations to create the same outcome. There is no one "right" way.
