@@ -1,4 +1,4 @@
-#CSS Positioning Homework
+# CSS Positioning Homework
 
 1. Start a new website project in a directory called CSS-positioning, and create blank index.html and style.css files.
 
