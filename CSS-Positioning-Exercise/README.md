@@ -2,7 +2,7 @@
 
 1. Start a new website project in a directory called CSS-positioning, and create blank index.html and style.css files.
 
-2. Write the HTML to create a container <div> with four child <div> elements. Inside each <div>, put a number from 1 to 4. Give the container an id of "bento"; give each child <div> a class name of box1, box2, box3, or box4. (So the div with class name "box1" should contain the number 1 inside, box2 has 2, etc).
+2. Write the HTML to create a container \<div> with four child \<div> elements. Inside each \<div>, put a number from 1 to 4. Give the container an id of "bento"; give each child \<div> a class name of box1, box2, box3, or box4. (So the div with class name "box1" should contain the number 1 inside, box2 has 2, etc).
 
 3. Set up the look of the page by writing the CSS code necessary to:
   - Give #bento a 5px solid darkgray border and a width of 50em. Center the #bento container div on the page.
